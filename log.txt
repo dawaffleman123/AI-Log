@@ -1,0 +1,113 @@
+[   21.095647] systemd-journald[1289]: Received client request to flush runtime journal.
+[   21.145161] systemd-journald[1289]: /var/log/journal/f5aaeab64a594a3ca36119b7d3a9824b/system.journal: Journal file uses a different sequence number ID, rotating.
+[   21.147238] systemd-journald[1289]: Rotating system journal.
+[   21.390378] BTRFS info: devid 1 device path /dev/mapper/luks-e5b010e3-316b-4217-94a1-35150d2466b9 changed to /dev/dm-0 scanned by (udev-worker) (1366)
+[   21.395003] BTRFS info: devid 1 device path /dev/dm-0 changed to /dev/mapper/luks-e5b010e3-316b-4217-94a1-35150d2466b9 scanned by (udev-worker) (1366)
+[   21.438158] zram0: detected capacity change from 0 to 16777216
+[   21.476254] amd-tee driver initialization successful
+[   21.479400] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0
+[   21.479405] piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection
+[   21.506612] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20
+[   21.520459] Adding 8388604k swap on /dev/zram0.  Priority:100 extents:1 across:8388604k SSDsc
+[   21.547100] EXT4-fs (nvme1n1p2): mounted filesystem 0e9aa190-43d5-476c-8ee0-c55f9afd79af r/w with ordered data mode. Quota mode: none.
+[   21.557226] ACPI: bus type thunderbolt registered
+[   21.576854] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   21.579041] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   21.579153] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[   21.636873] input: PC Speaker as /devices/platform/pcspkr/input/input17
+[   21.643531] amd-pmf AMDI0102:00: registered PMF device successfully
+[   21.648123] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+[   21.650099] RAPL PMU: hw unit of domain package 2^-16 Joules
+[   21.705741] usbcore: registered new device driver r8152-cfgselector
+[   21.779218] Bluetooth: Core ver 2.22
+[   21.780836] NET: Registered PF_BLUETOOTH protocol family
+[   21.782959] Bluetooth: HCI device and connection manager initialized
+[   21.784507] Bluetooth: HCI socket layer initialized
+[   21.784512] Bluetooth: L2CAP socket layer initialized
+[   21.784531] Bluetooth: SCO socket layer initialized
+[   21.796128] cros_ec_lpcs cros_ec_lpcs.0: loaded with quirks 00000001
+[   21.796575] kvm_amd: TSC scaling supported
+[   21.796578] kvm_amd: Nested Virtualization enabled
+[   21.796581] kvm_amd: Nested Paging enabled
+[   21.796583] kvm_amd: LBR virtualization supported
+[   21.797023] kvm_amd: Virtual VMLOAD VMSAVE supported
+[   21.797025] kvm_amd: Virtual GIF supported
+[   21.797026] kvm_amd: Virtual NMI enabled
+[   21.808714] snd_hda_intel 0000:c2:00.1: Handle vga_switcheroo audio client
+[   21.809669] cros_ec_lpcs cros_ec_lpcs.0: Chrome EC device registered
+[   21.822406] MCE: In-kernel MCE decoding enabled.
+[   21.832559] usbcore: registered new interface driver btusb
+[   21.839701] snd_hda_intel 0000:c2:00.1: bound 0000:c2:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+[   21.840875] Bluetooth: hci0: HW/SW Version: 0x008a008a, Build Time: 20240716163633
+[   21.853822] AMD Address Translation Library initialized
+[   21.857836] intel_rapl_common: Found RAPL domain package
+[   21.857840] intel_rapl_common: Found RAPL domain core
+[   21.861436] mt7921e 0000:02:00.0: ASIC revision: 79220010
+[   21.864075] input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:c2:00.1/sound/card0/input18
+[   21.864579] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC295: line_outs=2 (0x17/0x14/0x0/0x0/0x0) type:speaker
+[   21.864585] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   21.864587] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   21.864589] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+[   21.864591] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+[   21.864593] snd_hda_codec_realtek hdaudioC1D0:      Mic=0x12
+[   21.872695] input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:c2:00.1/sound/card0/input19
+[   21.882402] input: HD-Audio Generic HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:08.1/0000:c2:00.1/sound/card0/input20
+[   21.888797] r8152-cfgselector 2-2.1: reset SuperSpeed USB device number 3 using xhci_hcd
+[   21.918013] cros-usbpd-charger cros-usbpd-charger.4.auto: No USB PD charging ports found
+[   21.922356] cros-usbpd-charger cros-usbpd-charger.4.auto: Unexpected number of charge port count
+[   21.923312] cros-usbpd-charger cros-usbpd-charger.4.auto: Failing probe (err:0xffffffb9)
+[   21.924220] cros-usbpd-charger cros-usbpd-charger.4.auto: probe with driver cros-usbpd-charger failed with error -71
+[   21.939157] mt7921e 0000:02:00.0: HW/SW Version: 0x8a108a10, Build Time: 20240716163242a
+
+[   21.960138] r8152 2-2.1:1.0 eth0: v1.12.13
+[   21.960867] usbcore: registered new interface driver r8152
+[   21.964739] mt7921e 0000:02:00.0: WM Firmware Version: ____000000, Build Time: 20240716163327
+[   21.967597] usbcore: registered new interface driver cdc_ether
+[   21.970625] usbcore: registered new interface driver cdc_ncm
+[   21.972930] usbcore: registered new interface driver cdc_wdm
+[   21.974798] usbcore: registered new interface driver cdc_mbim
+[   21.985519] Bluetooth: hci0: Device setup in 149780 usecs
+[   21.986573] Bluetooth: hci0: HCI Enhanced Setup Synchronous Connection command is advertised, but not supported.
+[   22.030159] r8152 2-2.1:1.0 enp194s0f3u2u1: renamed from eth0
+[   22.049421] Bluetooth: hci0: AOSP extensions version v0.96
+[   22.050768] Bluetooth: hci0: AOSP quality report is not supported
+[   22.360338] RPC: Registered named UNIX socket transport module.
+[   22.361079] RPC: Registered udp transport module.
+[   22.361662] RPC: Registered tcp transport module.
+[   22.362261] RPC: Registered tcp-with-tls transport module.
+[   22.362775] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[   22.535936] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   22.536911] Bluetooth: BNEP filters: protocol multicast
+[   22.537873] Bluetooth: BNEP socket layer initialized
+[   22.552294] Bluetooth: MGMT ver 1.22
+[   22.643358] block nvme0n1: No UUID available providing old NGUID
+[   22.702416] NET: Registered PF_QIPCRTR protocol family
+[   23.167231] mt7921e 0000:02:00.0 wlp2s0: renamed from wlan0
+[   24.178793] tun: Universal TUN/TAP device driver, 1.6
+[   28.030133] wlp2s0: authenticate with e2:55:b8:2e:8f:24 (local address=32:90:12:5e:2e:2e)
+[   28.514350] wlp2s0: send auth to e2:55:b8:2e:8f:24 (try 1/3)
+[   28.521642] wlp2s0: authenticated
+[   28.524895] wlp2s0: associate with e2:55:b8:2e:8f:24 (try 1/3)
+[   28.555188] wlp2s0: RX AssocResp from e2:55:b8:2e:8f:24 (capab=0x1511 status=0 aid=5)
+[   28.590326] wlp2s0: associated
+[   28.672000] wlp2s0: Limiting TX power to 24 (24 - 0) dBm as advertised by e2:55:b8:2e:8f:24
+[   31.608486] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   31.608901] warning: `QSampleCache::L' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+[   31.611386] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   31.611748] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   31.880407] Bluetooth: RFCOMM TTY layer initialized
+[   31.880444] Bluetooth: RFCOMM socket layer initialized
+[   31.880457] Bluetooth: RFCOMM ver 1.11
+[   34.092658] systemd-journald[1289]: Time jumped backwards, rotating.
+[   61.203645] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.230914] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.231309] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.231628] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.231662] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.641004] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.681041] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.681279] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.681481] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[   61.681502] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+[  445.967715] usb 1-4.1: reset full-speed USB device number 8 using xhci_hcd
+[  446.163351] usb 1-4.1: reset full-speed USB device number 8 using xhci_hcd
