@@ -1,8 +1,9 @@
 import ollama
+import subprocess
 
 # Settings
 
-version = "v0.1.1"
+version = "v0.2.0"
 isCPU = True
 
 if isCPU:
@@ -10,10 +11,18 @@ if isCPU:
 else:
     model = "gemma2"
 
-# Open the logs
-with open("/home/dawaffleman/Documents/AI Log/log.txt", "r") as f:
-    log = f.read()
+print(f"AI Log Summarizer {version}\nModel name: {model}")
 
+cmd=['sudo', 'dmesg']
+
+try:
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True, shell=isinstance(cmd, str))
+    log = result.stdout
+    
+except subprocess.CalledProcessError as e:
+    print(f"Error: {e.stderr}")
+    
+    exit()
 
 
 # Pass the log into ollama
@@ -39,4 +48,4 @@ except ollama._types.ResponseError as cheese:
     for chunk in stream:
         print(chunk['message']['content'], end='', flush=True) 
 
-print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+print("\n\n\n")
